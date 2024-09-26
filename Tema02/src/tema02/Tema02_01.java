@@ -1,7 +1,7 @@
 /* 
     ESTRUCTURA DE UN PROGRAMA EN JAVA
         En Java todo son Clases. Cada archivo .java es una Clase.
-        public class Tema02 es nuestra clase actual.
+        public class Tema02_01 es nuestra clase actual.
 
         Las clases tienen 2 elementos:
             - Atributos (características, como el COLOR de un coche).
@@ -91,7 +91,7 @@ package tema02;
  */
 
 // 1. CLASE
-public class Tema02 {
+public class Tema02_01 {
     // 2. ATRIBUTOS
     public static int numeroTema = 2;  // Variable decalarada e inicializada. Ámbito global
     public static float temperatura;   // Variable inicializada. Ámbito global
