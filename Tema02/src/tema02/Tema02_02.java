@@ -114,21 +114,28 @@ public class Tema02_02 {
 //        num3 %= num1;
 //        System.out.println("num3 %= num1: " + num3);
 
-        // CONVERSIÓN DE TIPOS
+//        int c = 3;
+//        System.out.println("Preincremento: " + ++c);
+//        c = 3;
+//        System.out.println("Postincremento: " + c++);
+
+//        // CONVERSIÓN DE TIPOS
+//        
+//        // Conversión implícita: un short (16 bits) coge en un int (32 bits)
+//        short dato1 = 88;
+//        int dato2;
+//        
+//        dato2 = dato1;
+//        System.out.println(dato2);
+//        
+//        // Conversión explícita: un int (32 bits) no coge en un byte (8 bits)
+//        int dato3 = 88;
+//        byte dato4;
+//        
+//        //dato4 = dato3;  // Error de compilación: "Incompatible types"
+//        dato4 = (byte)dato3;    // SOLUCIÓN: Pasamos el int a byte
+//        System.out.println(dato4);
         
-        // Conversión implícita: un short (16 bits) coge en un int (32 bits)
-        short dato1 = 88;
-        int dato2;
-        
-        dato2 = dato1;
-        System.out.println(dato2);
-        
-        // Conversión explícita: un int (32 bits) no coge en un byte (8 bits)
-        int dato3 = 88;
-        byte dato4;
-        
-        //dato4 = dato3;  // Error de compilación: "Incompatible types"
-        dato4 = (byte)dato3;    // SOLUCIÓN: Pasamos el int a byte
-        System.out.println(dato4);
+       
     }
 }
