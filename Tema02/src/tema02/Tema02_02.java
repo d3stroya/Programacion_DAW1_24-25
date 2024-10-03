@@ -114,6 +114,7 @@ public class Tema02_02 {
 //        num3 %= num1;
 //        System.out.println("num3 %= num1: " + num3);
 
+        // Diferencia entre ++c y c++ 
 //        int c = 3;
 //        System.out.println("Preincremento: " + ++c);
 //        c = 3;
