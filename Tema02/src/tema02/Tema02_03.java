@@ -52,18 +52,27 @@ public class Tema02_03 {
         
         
         // ENTRADA DE DATOS
+        float diametro, altura;
         
         // 1. Creamos el escáner que lea los datos
         Scanner entrada = new Scanner(System.in);
         
         // 2. Imprimimos información por pantalla para que el usuario sepa qué tiene que hacer
-        System.out.println("¿Cuál es el diámetro de la circunferencia?: ");
+        System.out.println("¿Cuál es el diámetro de la circunferencia (en cm)?: ");
         
         // 3. Leemos la información introducida por teclado por el usuario
-        float diametro = entrada.nextFloat();
+        diametro = entrada.nextFloat();
         
         // 4. Imprimimos el resultado
         System.out.println("La longitud de la circunferencia de diámetro " 
-                + diametro + " es: " + diametro * PI);
+                + diametro + " es: " + diametro * PI + "cm");
+        
+        // 5. Puedo seguir pidiendo datos con el mismo scanner
+        System.out.println("¿Cuál es la altura del cilindro (en cm)?");
+        altura = entrada.nextFloat();
+        
+        System.out.println("El volumen del cilindro es " + 
+                PI * (diametro/2) * (diametro/2) * altura + "cm3"
+        );
     }
 }
