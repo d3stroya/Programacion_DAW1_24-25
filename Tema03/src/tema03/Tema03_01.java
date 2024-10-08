@@ -21,23 +21,23 @@ public class Tema03_01 {
         */
         
         // 1.1. Una condición
-//        System.out.println("IF"); 
-//        // Si se cumple la condición (true), se ejecuta lo que hay dentro del if{}. 
-//        // Si no, no pasa nada
-//        if(a < b) {
-//            System.out.println(a + " es menor que " + b);
-//        }
+        System.out.println("IF"); 
+        // Si se cumple la condición (true), se ejecuta lo que hay dentro del if{}. 
+        // Si no, no pasa nada
+        if(a < b) {
+            System.out.println(a + " es menor que " + b);
+        }
         
-//        System.out.println("IF ELSE");
-//        // Si se cumple la condición (true), se ejecuta lo que hay dentro del if. 
-//        // Si no, se ejecuta lo que hay dentro del else{}
+        System.out.println("IF ELSE");
+        // Si se cumple la condición (true), se ejecuta lo que hay dentro del if. 
+        // Si no, se ejecuta lo que hay dentro del else{}
 //        if(a < b) {
 //            System.out.println(a + " es menor que " + b);
 //        } else {
 //            System.out.println(a + " es mayor que " + b);
 //        }
         
-//        // 1.2. Doble condición
+        // 1.2. Doble condición
 //        System.out.println("IF - ELSE IF - ELSE");        
 //        if(a < b) {
 //            System.out.println(a + " es menor que " + b);
@@ -62,6 +62,7 @@ public class Tema03_01 {
             // Si a = 3
             case 3:
                 System.out.println("a es 3");
+                break;
                 // !!! Si no pongo el break, se ejecuta(n) la(s) sentencia(s) siguiente(s)
             // Cualquier otra opción
             default:
@@ -70,7 +71,7 @@ public class Tema03_01 {
         
 //        // Otra forma de escribir el swith-case
 //        switch(a) {
-//            case 1 -> System.out.println("a es 1"); //System.out.println("ERROR: No puedo ejecutar más de 1 sentencia dentro del case");
+//            case 1 -> System.out.println("a es 1"); //System.out.println("ERROR: No puedo ejecutar más de 1 sentencia dentro del case sin usar llaves");
 //            case 2 -> System.out.println("a es 2");
 //            case 3 -> System.out.println("a es 3");
 //            default -> System.out.println("a no es 1 ni 2 ni 3");
