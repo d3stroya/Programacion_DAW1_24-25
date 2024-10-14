@@ -24,67 +24,67 @@ import java.util.Scanner;
  */
 public class Tema03_02 {
     public static void main(String[] args) {
-        int a = 0;  // Si a = 0, while y do-while aparentemente hacen lo mismo,
+        int a = 5;  // Si a = 0, while y do-while aparentemente hacen lo mismo,
                     // pero si a = 5, while no imprime nada y do-while sí
         
         // WHILE
-        System.out.println("BUCLE WHILE");
-        while(a < 5) {
-            System.out.println(a);
-            a++;
-        }
+//        System.out.println("BUCLE WHILE");
+//        while(a < 5) {
+//            System.out.println(a);
+//            a++;
+//        }
         
-        // DO WHILE
-        System.out.println("\nBUCLE DO-WHILE");
-        a = 0;
-        do {
-            System.out.println(a);
-            a++;
-        } while(a < 5);
+//        // DO WHILE
+//        System.out.println("\nBUCLE DO-WHILE");
+//        a = 5;
+//        do {
+//            System.out.println(a);
+//            a++;
+//        } while(a < 5);
         
-        // FOR
-        System.out.println("\nBUCLE FOR");
-        for(int i = 0; i < 5; i++) {
-            System.out.println(i);
-        }
+//        // FOR
+//        System.out.println("\nBUCLE FOR");
+//        for(int i = 0; i < 5; i++) {
+//            System.out.println(i);
+//        }
         
 //        // Usaremos mucho los bucles do-while para crear menús de opciones
-//        int opcion = 0;
-//        Scanner entrada = new Scanner(System.in);
-//        
-//        do {
-//            // Mostramos las opciones
-//            System.out.println("\n1. Aparcar coche");
-//            System.out.println("2. Buscar coche por matrícula");
-//            System.out.println("3. Pagar");
-//            System.out.println("4. Salir");
-//            
-//            // Pedimos una opción al usuario
-//            System.out.print("Elige una opción: ");            
-//            opcion = entrada.nextInt();
-//            
-//            // Ejecutamos una acción u otra dependiendo de la opción del usuario
-//            switch (opcion) {
-//                case 1:
-//                    System.out.println("\nAparcar");
-//                    break;
-//                case 2: 
-//                    System.out.println("\nBuscar");
-//                    break;
-//                case 3:
-//                    System.out.println("\nPagar");
-//                    break;
-//                case 4:
-//                    System.out.println("\nSalir");
-//                    break;
-//                default:
-//                    System.out.println("\nIntroduce una oción válida");
-//            }
-//            
-//        } while(opcion != 4);   
-//        // 4 es el valor para salir del menú (del bucle). 
-//        // Mientras pulsemos otro número, seguiremos en el bucle 
-//        // (interactuando con el programa)
+        int opcion = 0;
+        Scanner entrada = new Scanner(System.in);
+        
+        do {
+            // Mostramos las opciones
+            System.out.println("\n1. Aparcar coche");
+            System.out.println("2. Buscar coche por matrícula");
+            System.out.println("3. Pagar");
+            System.out.println("4. Salir");
+            
+            // Pedimos una opción al usuario
+            System.out.print("Elige una opción: ");            
+            opcion = entrada.nextInt();
+            
+            // Ejecutamos una acción u otra dependiendo de la opción del usuario
+            switch (opcion) {
+                case 1:
+                    System.out.println("\nAparcar");
+                    break;
+                case 2: 
+                    System.out.println("\nBuscar");
+                    break;
+                case 3:
+                    System.out.println("\nPagar");
+                    break;
+                case 4:
+                    System.out.println("\nSalir");
+                    break;
+                default:
+                    System.out.println("\nIntroduce una oción válida");
+            }
+            
+        } while(opcion != 4);   
+        // 4 es el valor para salir del menú (del bucle). 
+        // Mientras pulsemos otro número, seguiremos en el bucle 
+        // (interactuando con el programa)
         
     }
 }
