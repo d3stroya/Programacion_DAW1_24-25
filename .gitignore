@@ -36,3 +36,5 @@ Tema03/nbproject/project.properties
 Tema02/nbproject/project.properties
 Tema02/nbproject/project.properties
 *.properties
+/Tema04/nbproject/private/
+/Tema04/build/

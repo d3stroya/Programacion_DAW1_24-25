@@ -33,11 +33,12 @@ public class Tema03_3 {
             c = a / b;
         } catch(ArithmeticException e) {
             System.out.println("No puedes dividir entre 0");
+            System.out.println(e.getMessage());
             c = 0;
         } 
         
         System.out.println("El resultado de dividir " + a + " entre " + b + " es " + c);    // No se ejecuta porque el programa se detiene en la línea anterior
 
-        
+//        
     }
 }
