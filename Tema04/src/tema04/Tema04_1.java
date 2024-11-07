@@ -44,7 +44,7 @@ import java.util.Scanner;
  *
  * @author d3stroya
  */
-public class Tema04 {
+public class Tema04_1 {
 
     // 1. SUBPROGRAMAS (MÉTODOS)
     // Declaro el método público, estático y de tipo void (no devuelve nada)
@@ -77,36 +77,37 @@ public class Tema04 {
     }
     
     public static float sumar(float numero1, float numero2) {
-        float suma = numero1 + numero2;
-        return suma;
+//        float suma = numero1 + numero2;
+//        return suma;
+        return numero1 + numero2;
     }
     
     
-    
+   
     
     
     // Método main
     public static void main(String[] args) {
         // 1. SUBPROGRAMAS (MÉTODOS)
         // Declaro las variables
-        byte edad;
-        float altura;
-        
-        // Inicializo las variables
-        edad = 55;
-        altura = 1.75f;
-        
-        // Invoco el método pasándole las variables por parámetro
-        muestraEdadyAltura(edad, altura);
+//        byte edad;
+//        float altura;
+//        
+//        // Inicializo las variables
+//        edad = 55;
+//        altura = 1.75f;
+//        
+//        // Invoco el método pasándole las variables por parámetro
+//        muestraEdadyAltura(edad, altura);
         
         
         // 2. TIPOS DE MÉTODOS: SENTENCIA RETURN
         // Invoco al método pedir edad, que devuelve un entero 
         // y guardo su valor en la variable edad
-        int edadPedida = pedirEdad();
-        
-        // Imprimo la edad que ha dado el usuario
-        System.out.println("Tu edad es " + edadPedida);
+//        int edadPedida = pedirEdad();
+//        
+//        // Imprimo la edad que ha dado el usuario
+//        System.out.println("Tu edad es " + edadPedida);
         
         // Declaro las variables
         float numero1, numero2, suma;
