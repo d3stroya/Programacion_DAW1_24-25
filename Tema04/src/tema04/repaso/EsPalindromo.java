@@ -18,6 +18,11 @@ public class EsPalindromo {
         return entrada.nextLine();
     }
     
+    /**
+     * Método que devuelve al revés una palabra pasada por parámetro
+     * @param palabra
+     * @return la palabra al revés
+     */
     public static String revertirPalabra(String palabra) {
         String palabraAlReves = "";
         
@@ -28,6 +33,12 @@ public class EsPalindromo {
         return palabraAlReves;
     }
     
+    /**
+     * Método que comprueba si una palabra pasada por parámetro
+     * es un palíndromo o no
+     * @param palabra
+     * @return true si es palíndromo y false en caso contrario
+     */
     public static boolean esPalindromo(String palabra) {
         String palabraAlReves = revertirPalabra(palabra);
 
@@ -40,6 +51,10 @@ public class EsPalindromo {
         return palabraAlReves.equalsIgnoreCase(palabra);
     }
     
+    /**
+     * Método principal
+     * @param args 
+     */
     public static void main(String[] args) {
         String palabra = pedirPalabra();
         if(esPalindromo(palabra)) {
