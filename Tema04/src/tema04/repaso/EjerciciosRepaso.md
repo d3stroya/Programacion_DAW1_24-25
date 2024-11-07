@@ -12,11 +12,10 @@ que devuelva true si la palabra es un palíndromo
 que de derecha a izquierda).
 
 Ejemplo de salida:
-
-´´´
+```
 Ingrese una palabra: anilina
 ¿La palabra es un palíndromo? true
-´´´
+```
 
 ## 2. Número Perfecto
 Un número es perfecto si es igual a la suma de sus divisores (excluyendo el número en sí). Crea un programa que determine si un número es perfecto.
@@ -27,11 +26,10 @@ Implementa un método esPerfecto(int numero) que devuelva true
 si el número es perfecto y false en caso contrario.
 
 Ejemplo de salida:
-
-´´´
+```
 Ingrese un número: 6
 ¿El número es perfecto? true
-´´´
+```
 
 ## 3. Número Capicúa
 Un número es capicúa si se lee igual de izquierda a derecha que de derecha a izquierda, como 121 o 12321.
