@@ -14,12 +14,12 @@ import calculadora.Calculadora;
 public class ClaseParaInvocarMetodo {
     public static void main(String[] args) {
         
-        // Invoco el método muestraEdadyAltura de la clase Tema04
-        Tema04.muestraEdadyAltura((byte)55, 1.75f);
+        // Invoco el método muestraEdadyAltura de la clase Tema04_1
+        Tema04_1.muestraEdadyAltura((byte)55, 1.75f);
         
         // Intento invocar el método meustraEdad, pero da error de compilación
         // porque el método muestraEdad es privado (private)
-//         Tema04.muestraEdad((byte)55);   
+//         Tema04_1.muestraEdad((byte)55);   
 
         // Invoco el método suma de la clase Calculadora
         Calculadora.suma(3, 7);
