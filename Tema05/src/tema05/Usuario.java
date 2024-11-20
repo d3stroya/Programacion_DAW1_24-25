@@ -84,8 +84,19 @@ public class Usuario {
         return edad >= 18;
     }
     
+    // SOBRECARGA DE MÉTODOS
     public void enviarSolicitudDeAmistad(Usuario otroUsuario) {
         System.out.println(nombre + " ha solicitado seguir a " + otroUsuario.getNombre());
+    }
+    
+    public void enviarSolicitudDeAmistad(Usuario usuario1, Usuario usuario2) {
+        System.out.println(nombre + " ha solicitado seguir a " + usuario1.getNombre() +
+                " y a " + usuario2.getNombre());
+    }
+    
+    public void enviarSolicitudDeAmistad(Usuario usuario1, Usuario usuario2, Usuario usuario3) {
+        System.out.println(nombre + " ha solicitado seguir a " + usuario1.getNombre() +
+                ", a " + usuario2.getNombre() + " y a " + usuario3.getNombre());
     }
     
     public void notificarNuevaPublicacion(Publicacion publicacion, Usuario otroUsuario) {

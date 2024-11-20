@@ -39,11 +39,12 @@ public class Main {
         System.out.println("");
         
         // OBJETO 2
+        Publicacion publi1 = new Publicacion(
+                        new Date(), "vacaciones en el mar", "https://mi-foto-playa.jpg"
+                );
         // Instanciamos un objeto con el constructor parametrizado, incluyendo la creación del objeto publicación con el constructor parametrizado 
         Usuario luis = new Usuario(
-                "Luis", 22, "luis@mail.com", new Publicacion(
-                        new Date(), "vacaciones en el mar", "https://mi-foto-playa.jpg"
-                )
+                "Luis", 22, "luis@mail.com", publi1
         );
         
         // Imprimios sus datos por pantalla gracias al método toString()
