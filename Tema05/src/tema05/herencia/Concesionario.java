@@ -11,7 +11,7 @@ public class Concesionario {
         Vehiculo vehiculoPorDefecto = new Vehiculo();
         
         // Creamos un vehículo (superclase) con todos los atributos inicializados por parámetro
-        Vehiculo vehiculoParametrizado = new Vehiculo("Renauls", "Clio", 120, true);
+        Vehiculo vehiculoParametrizado = new Vehiculo("Renault", "Clio", 120, true);
         
         // Creamos un coche (subclase) por defecto
         Coche cochePorDefecto = new Coche();
@@ -20,7 +20,7 @@ public class Concesionario {
         Coche cocheParametrizado = new Coche(5, "Volkswagen", "Polo", 130, true);
         
         // Usamos los métodos de vehículo en los coches
-        cocheParametrizado.acelerar(0);
+        cocheParametrizado.acelerar(5);
         cochePorDefecto.arrancarMotor();
         
         // Imprimos por pantalla todos los vehículos
