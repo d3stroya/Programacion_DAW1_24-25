@@ -19,4 +19,4 @@ Entrega el resultado final en Moodle.
 ## PISTAS
 Si necesitas ayuda, puedes ver una plantilla con los métodos que debes crear:
 
-[Plantilla]
+[Plantilla](https://github.com/d3stroya/Programacion_DAW1_24-25/blob/main/Tema05/src/programaDonaciones/DonacionesDana.java)
