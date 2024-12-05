@@ -5,7 +5,7 @@ afectados por la dana en Valencia.
 
 A continuación tienes la presentación con los requisitos:
 
-[Presentación](https://www.canva.com/design/DAGYaR_mOVI/AeMKWw2xH5iKr_KTMjPMsw/edit?utm_content=DAGYaR_mOVI&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+[Presentación](https://www.canva.com/design/DAGYaR_mOVI/yg01HsTekrokUEbAB1c8vw/view?utm_content=DAGYaR_mOVI&utm_campaign=designshare&utm_medium=link&utm_source=editor)
 
 ## ¡IMPORTANTE!
 Haz primero un diseño sobre papel a modo de esquema con cada parte del programa.
