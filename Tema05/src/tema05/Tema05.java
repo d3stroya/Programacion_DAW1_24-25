@@ -70,18 +70,18 @@ public class Tema05 {
         System.out.println(factorial(4));
         
         
-//        /* Podemos hacer lo mismo con un bucle for.
-//           La recursividad es una herramienta más que nos da la programación
-//           y que puede ser muy útil en ciertas circunstancias.
-//        */
-//        System.out.print("\nBUCE FOR: ");
-//        int factorial = 1;
-//        
-//        for(int i = 4; i >= 1; i--) {
-//            factorial *= i;
-//        }
-//        
-//        System.out.println(factorial);
+        /* Podemos hacer lo mismo con un bucle for.
+           La recursividad es una herramienta más que nos da la programación
+           y que puede ser muy útil en ciertas circunstancias.
+        */
+        System.out.print("\nBUCE FOR: ");
+        int factorial = 1;
+        
+        for(int i = 4; i >= 1; i--) {
+            factorial *= i;
+        }
+        
+        System.out.println(factorial);
     }
     
     
