@@ -20,6 +20,7 @@ package tema06;
  * Al instanciar un nuevo objeto de tipo Triangulo y guardarlo en una variable de tipo
  * FiguraGeometrica, podemos acceder a los métodos de la superclase, pero no a los que sólo
  * tiene la subclase.
+ * 
  * @author d3stroya
  */
 public class Tema06 {
@@ -49,6 +50,15 @@ public class Tema06 {
         
         figura = new Circulo(6, "rojo");
         System.out.println("El área del círculo es " + figura.calcularArea());
+        
+        System.out.println("");
+        
+        // OPERADOR INSTANCE OF
+        if(figura instanceof Triangulo) {
+            System.out.println("La figura es un triángulo");
+        } else if(figura instanceof Circulo) {
+            System.out.println("La figura es un círculo");
+        }
     }
 
 }

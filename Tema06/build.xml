@@ -70,4 +70,11 @@
     nbproject/build-impl.xml file. 
 
     -->
+    
+    <property name="lombok.jar" value="/Users/anabel/NetBeansProjects/lib/lombok.jar"/>
+<target name="compile">
+    <javac srcdir="src" destdir="build/classes" classpath="${lombok.jar}">
+        <!-- Configuración adicional -->
+    </javac>
+</target>
 </project>
