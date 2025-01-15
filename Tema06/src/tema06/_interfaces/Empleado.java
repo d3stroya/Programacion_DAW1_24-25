@@ -1,5 +1,5 @@
 
-package tema06.interfaces;
+package tema06._interfaces;
 
 import java.io.Serializable;
 
@@ -8,10 +8,12 @@ import java.io.Serializable;
  * @author d3stroya
  */
 public class Empleado implements Empleable, Serializable {
+    // Atributos
     private String nombre;
     private double sueldoBruto;
     private double sueldoNeto;
 
+    // Constructores
     public Empleado() {
         this.nombre = "";
         this.sueldoBruto = 0;
@@ -24,6 +26,7 @@ public class Empleado implements Empleable, Serializable {
         this.sueldoNeto = sueldoNeto;
     }
 
+    // Getters y setters
     public String getNombre() {
         return nombre;
     }
@@ -48,6 +51,7 @@ public class Empleado implements Empleable, Serializable {
         this.sueldoNeto = sueldoNeto;
     }
 
+    // Métodos
     @Override
     public double aumentarSueldo(double plus) {
         this.sueldoBruto += plus;
@@ -59,6 +63,7 @@ public class Empleado implements Empleable, Serializable {
         return sueldoBruto + pagaExtra;
     }        
 
+    // To string
     @Override
     public String toString() {
         return "Empleado{" + "nombre=" + nombre + ", sueldoBruto=" + sueldoBruto + ", sueldoNeto=" + sueldoNeto + '}';

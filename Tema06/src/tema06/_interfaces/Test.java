@@ -1,5 +1,5 @@
 
-package tema06.interfaces;
+package tema06._interfaces;
 
 /**
  *
