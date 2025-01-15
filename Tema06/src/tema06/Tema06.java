@@ -45,13 +45,16 @@ public class Tema06 {
         
         // POLIMORFISMO
         // La misma expresión permite invocar a diferentes versiones del mismo método
-        figura = new Triangulo(3, 4, "rojo");
-        System.out.println("El área del triángulo es " + figura.calcularArea());
         
         figura = new Circulo(6, "rojo");
         System.out.println("El área del círculo es " + figura.calcularArea());
+        figura = new Triangulo(3, 4, "rojo");
+        System.out.println("El área del triángulo es " + figura.calcularArea());
         
         System.out.println("");
+        
+        
+        
         
         // OPERADOR INSTANCE OF
         if(figura instanceof Triangulo) {
