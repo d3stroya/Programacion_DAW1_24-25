@@ -4,12 +4,17 @@ package operaciones;
 import general.Constantes;
 import java.util.InputMismatchException;
 import java.util.Scanner;
+import recursos.armas.ArmaCortoAlcance;
+import recursos.armas.ArmaLargoAlcance;
+import recursos.personajes.Cyborg;
+import recursos.personajes.Policia;
 
 /**
  *
  * @author d3stroya
  */
 public class Menu {
+    public static Policia jugador;
     
     /**
      * Método que pide al usuario una constraseña y comprueba si es válida.
@@ -126,14 +131,12 @@ public class Menu {
                 entrada.next();
             }
         } while(opcion != 11);
-    }
+    }   
 
     /**
-     * Método main con el menú del programa
-     * 
-     * @param args the command line arguments
+     * Método que muestra el menú principal
      */
-    public static void main(String[] args) {
+    public static void mostrarMenu() {
         Scanner entrada = new Scanner(System.in);
         int opcion = 0;
                 
@@ -173,6 +176,27 @@ public class Menu {
                 entrada.next();
             }
         } while(opcion != 4);
+    }
+    
+    /**
+     * Método para crear los objetos de la misión03
+     */
+    public static void mision03() {
+        ArmaCortoAlcance armaLiberacion = new ArmaCortoAlcance(10, 16);
+        Cyborg nexus = new Cyborg("liderazgo", "Francia", "desconocido, alias Nexus", 'N', 0, 0);
+        Cyborg siren = new Cyborg("logística", "Francia", "desconocido, alias Siren", 'S', 0, 0);
+        Policia lunaCastillo = new Policia("Operaciones", "Largo alcance", "Comisaria", "Luna Castillo", 'L', 0, 0);
+        lunaCastillo.setArma(new ArmaLargoAlcance(2000, 20));
+        jugador = lunaCastillo;
+    }
+    
+    /**
+     * Método main con el menú del programa
+     * 
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        mostrarMenu();
     }
 
 }
