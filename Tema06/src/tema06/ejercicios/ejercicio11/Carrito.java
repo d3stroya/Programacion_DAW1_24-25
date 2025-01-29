@@ -98,7 +98,7 @@ public class Carrito implements Pagable, Descontable {
             case 1 -> pagoTarjeta();
             case 2 -> pagoEfectivo();
             case 3 -> pagoPaypal();
-            case 4 -> System.out.println("Opción no válida");
+            default -> System.out.println("Opción no válida");
         }
         
         System.out.println("Gracias por su compra");

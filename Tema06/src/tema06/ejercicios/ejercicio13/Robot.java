@@ -85,7 +85,7 @@ public class Robot implements Operable, Revisable {
         } else if (nivelBateria <= 20) {
             return "La bater�a del robot est� baja. Nivel de bater�a: " + nivelBateria + "%";
         } else {
-            return "Todos los sistemas est�n operativos y el nivel de bater�a es adecuado";
+        return "Todos los sistemas est�n operativos y el nivel de bater�a es adecuado";
         }
     }
     
