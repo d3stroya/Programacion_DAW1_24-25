@@ -3,14 +3,7 @@ import java.util.Scanner;
 
 
 /**
- * VECTORES o ARRAYS
- * Son estructuras estáticas que almacenan datos. En este tema usaremos arrays
- * que almacenan tipos simples (int, char, double,... y String).
- * 
- * Debemos indicar su tamaño en la declaración: int[] edades = new int[8]. 
- * (Son objetos, de ahí su instanciación).
- * 
- * Podemos acceder directamente a sus posiciones mediante: nombreArray[índice]
+ *
  * @author d3stroya
  */
 public class Tema07 {
@@ -122,6 +115,52 @@ public class Tema07 {
 //        
 //        System.out.println("Array después del intercambio:");
 //        mostrarVector(edades);
+
+    
+
+        // 2. MATRICES
+        
+        // Declara una matriz
+        int[][] ventasMes = new int[4][7];  // 4 semanas de 7 días                        
+        
+        // Mostrar la matriz
+        System.out.println("- MOSTRAR MATRIZ -");
+        for(int i = 0; i < ventasMes.length; i++) { // Recorre las filas: de 0 a 4. (VERTICAL)
+            for(int j = 0; j < ventasMes[0].length; j++) {  // Recorre las columnas de cada fila: de 0 a 7. (HORIZONTAL)
+                System.out.print("[" + ventasMes[i][j] + "] ");  // Muestro las columnas de la fila en la misma línea
+            }
+            System.out.println(""); // Imprimo un salto de línea por cada fila
+        }
+        
+        // Rellenar la matriz con números aleatorios
+        System.out.println("\nRellenando matriz....");
+        for(int i = 0; i < ventasMes.length; i++) { 
+            for(int j = 0; j < ventasMes[0].length; j++) {  
+                ventasMes[i][j] = (int)(Math.random() * 9 + 1);
+            }            
+        }
+        
+        // Usar constantes para guardar FILAS y COLUMNAS
+        final int FILAS = 4;
+        final int COLUMNAS = 7;
+        
+        // Mostrar la matriz con constantes
+        System.out.println("\n- MOSTRAR MATRIZ CON CONSTANTES -");
+        for(int i = 0; i < FILAS; i++) { 
+            for(int j = 0; j < COLUMNAS; j++) {  
+                System.out.print("[" + ventasMes[i][j] + "] ");  
+            }
+            System.out.println(""); 
+        }
+        
+        // Mostrar la matriz al revés
+        System.out.println("\n- MOSTRAR MATRIZ AL REVÉS -");
+        for(int j = 0; j < COLUMNAS; j++) { 
+            for(int i = 0; i < FILAS; i++) {  
+                System.out.print("[" + ventasMes[i][j] + "] ");  
+            }
+            System.out.println(""); 
+        }
     }
     
     public static void mostrarVector(int[] vector) {

@@ -4,7 +4,15 @@ package tema07;
 import java.util.Scanner;
 
 /**
- *
+ * VECTORES o ARRAYS
+ * Son estructuras estáticas que almacenan datos. En este tema usaremos arrays
+ * que almacenan tipos simples (int, char, double,... y String).
+ * 
+ * Debemos indicar su tamaño en la declaración: int[] edades = new int[8]. 
+ * (Son objetos, de ahí su instanciación).
+ * 
+ * Podemos acceder directamente a sus posiciones mediante: nombreArray[índice]
+ * 
  * @author d3stroya
  */
 public class Vectores {
@@ -111,7 +119,7 @@ public class Vectores {
         int i = 0;
         boolean encontrado = false;
         
-        while(!encontrado && i < edades.length) {
+        while(!encontrado || i < edades.length) {
             if(edades[i] == 9) {
                 encontrado = true;
                 System.out.println("Número encontrado: " + edades[i] + " en la posición " + (i + 1));
