@@ -47,7 +47,6 @@ public class Ejercicio10 {
                     num2 = array[j];
                     
                     if(num2 == num1) {  // Si coinciden, se sustituye num2 por 0 y marcamos repetido como true
-//                        array[i] = 0;
                         array[j] = 0;
                         repetido = true;
                     }
