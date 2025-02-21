@@ -43,7 +43,7 @@ public class ArraysDeObjetos {
         // Asignar un objeto a una posición del array
         stockBicis[0] = new Bicicleta("blanco", 40, new Bateria(true, 500));
         stockBicis[2] = new Bicicleta("negro", 50, new Bateria(false, 300));
-        stockBicis[3] = new Bicicleta("rojo", 10, new Bateria(true, 250));
+        stockBicis[3] = new Bicicleta("verde", 10, new Bateria(true, 250));
         
         // Acceder a un objeto del array a través de su índice
 //        System.out.println(stockBicis[0]);
@@ -117,12 +117,13 @@ public class ArraysDeObjetos {
                 }
                 
             }
+            
             i++;
             
-            if(enc) {
-                System.out.println("Bici encontrada!!: " + bici);            
-            }
         }
         
+        if(enc) {
+            System.out.println("Bici encontrada!!: " + bici);            
+        }
     }
 }
