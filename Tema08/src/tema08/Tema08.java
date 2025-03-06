@@ -9,6 +9,8 @@ package tema08;
 public class Tema08 {
     
     public static void main(String[] args) {
+        System.out.println("************ VECTOR DE BICIS ************");
+
         // Inicializar un vector de objetos
         Bicicleta[] stockBicis = new Bicicleta[10];
         
@@ -128,6 +130,69 @@ public class Tema08 {
         
         if(bici != null) {
             System.out.println("Bici encontrada: " + bici);            
+        }
+        
+        
+        /** MATRICES DE OBJETOS **/
+        System.out.println("************ MATRIZ DE BICIS ************");
+        
+        // Inicializar una matriz de objetos
+        System.out.println("- INICIALIZANDO MATRIZ -");
+        Bicicleta[][] matrizBicis = new Bicicleta[3][3];
+        
+        // Rellenar matriz de bicis con array auxiliar
+        System.out.println("- RELLENANDO MATRIZ -");
+        
+        String[] coloresBici = {"Verde", "Rojo", "Blanco"};
+        
+        for(i = 0; i < matrizBicis.length; i++) {
+            for(int j = 0; j < matrizBicis[i].length; j++) {
+                // Cada fila tiene una bici verde, otra roja y otra blanca
+                // Todas las bicis de la columna 0 son verdes, las de la columna 1 
+                // son rojas y las de la columna 2 son blancas
+                matrizBicis[i][j] = new Bicicleta(coloresBici[i], 0, new Bateria());    
+            }
+        }
+        
+        // Asignando un valor a un atributo de un objeto del array
+        matrizBicis[2][2].setBateria(new Bateria(true, 500));
+        
+        // Mostrar matriz con for-each
+        System.out.println("- MOSTRANDO MATRIZ -");
+        for(Bicicleta[] aBicis : matrizBicis) {
+            for(Bicicleta bicicleta : aBicis) {
+                System.out.println(bicicleta);
+            }
+        }
+        
+        // Buscar un objeto en una matriz
+        System.out.println("- BUSCANDO BICI ENCENDIDA EN LA MATRIZ -");
+        enc = false;
+        i = 0; 
+        int j = 0;
+        Bicicleta biciEncendida = null;
+        
+        while(!enc && i < matrizBicis.length) {
+           // Reseteo la j para iterar desde 0 en la siguiente vuelta
+           j = 0;
+           
+            while(!enc && j < matrizBicis[i].length) {
+                
+                if(matrizBicis[i][j].getBateria().isEncendido()) {
+                    biciEncendida = matrizBicis[i][j];
+                    enc = true;
+                } else {
+                    j++;
+                }
+            }
+            
+            if(!enc) {
+                i++;                                                        
+            }
+        }
+        
+        if(enc) {
+            System.out.println("Bici encontrada en [" + i + "][" + j + "]: " + biciEncendida);
         }
     }
 
