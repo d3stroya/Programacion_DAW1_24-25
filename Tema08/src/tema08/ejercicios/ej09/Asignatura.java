@@ -1,5 +1,5 @@
 
-package tema08.ejercicios.ej1;
+package tema08.ejercicios.ej09;
 
 /**
  *
@@ -7,21 +7,18 @@ package tema08.ejercicios.ej1;
  */
 public class Asignatura {
     private String nombre;
-    private double nota;
+    private float nota;
 
-    /* Constructor por defecto */
-    Asignatura() {
+    public Asignatura() {
         this.nombre = "";
         this.nota = 0;
     }
     
-    /* Constructor parametrizado */
-    Asignatura(String nombre, double nota) {
+    public Asignatura(String nombre, float nota) {
         this.nombre = nombre;
         this.nota = nota;
     }
 
-    /* Getters y Setters */
     public String getNombre() {
         return nombre;
     }
@@ -30,12 +27,16 @@ public class Asignatura {
         this.nombre = nombre;
     }
 
-    public double getNota() {
+    public float getNota() {
         return nota;
     }
 
-    public void setNota(double nota) {
+    public void setNota(float nota) {
         this.nota = nota;
     }
-       
+
+    @Override
+    public String toString() {
+        return nombre + ": " + nota;
+    }        
 }

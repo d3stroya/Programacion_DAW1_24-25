@@ -1,4 +1,4 @@
-package tema08.ejercicios.ej7;
+package tema08.ejercicios.ej07;
 
 import java.util.Arrays;
 import java.util.InputMismatchException;

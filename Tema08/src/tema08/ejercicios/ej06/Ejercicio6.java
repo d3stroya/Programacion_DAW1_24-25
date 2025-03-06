@@ -1,4 +1,4 @@
-package tema08.ejercicios.ej6;
+package tema08.ejercicios.ej06;
 
 import java.util.Scanner;
 

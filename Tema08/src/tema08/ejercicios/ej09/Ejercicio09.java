@@ -1,5 +1,5 @@
 
-package tema08.ejercicios.ej9;
+package tema08.ejercicios.ej09;
 
 import java.util.Scanner;
 

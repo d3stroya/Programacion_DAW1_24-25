@@ -1,5 +1,5 @@
 
-package tema08.ejercicios.ej6;
+package tema08.ejercicios.ej06;
 
 /**
  *

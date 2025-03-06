@@ -1,4 +1,4 @@
-package tema08.ejercicios.ej2;
+package tema08.ejercicios.ej02;
 
 import java.util.InputMismatchException;
 import java.util.Scanner;
