@@ -103,13 +103,13 @@ public class Tema10 {
         numeros.remove(5);
         System.out.println("\n- NÚMERO EN EL ÍNDICE 5 -");
         System.out.println(numeros.get(5));
-//        
-//        // Eliminar la primera concurrencia del objeto indicado
+        
+        // Eliminar la primera concurrencia del objeto indicado
         System.out.println("\n- ELIMINANDO ELEMENTO 10 -");
         numeros.remove(Integer.valueOf(10));
         System.out.println(numeros);
-//        
-//        // Eliminar todos los elementos de la lista
+        
+        // Eliminar todos los elementos de la lista
         System.out.println("\n- ELIMINANDO ELEMENTOS -");
         numeros.clear();
         System.out.println("¿Está vacía?: " + numeros.isEmpty());
