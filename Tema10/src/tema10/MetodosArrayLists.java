@@ -8,7 +8,7 @@ import java.util.Arrays;
  *
  * @author d3stroya
  */
-public class Tema10 {
+public class MetodosArrayLists {
 
     /**
      * Método main con el menú del programa
