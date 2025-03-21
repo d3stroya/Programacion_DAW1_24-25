@@ -90,7 +90,7 @@ public class MetodosArrayLists {
         
         // Pasar la lista a un array
         System.out.println("\n- ARRAY LIST CONVERTIDO EN ARRAY -");
-        Object[] arrayNumeros = numeros.toArray();
+        Integer[] arrayNumeros = (Integer[]) numeros.toArray();
         System.out.println(Arrays.toString(arrayNumeros));
         
         
