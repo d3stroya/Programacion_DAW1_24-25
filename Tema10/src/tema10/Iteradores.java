@@ -83,7 +83,7 @@ public class Iteradores {
             // Y hacemos lo que necesitemos, como eliminar los usuarios menores de edad
             if(usuario.getEdad() < 18) {
                 it.remove(); // OJO: tenemos que eliminarlos desde el iterador y no desde la lista
-            }
+            }            
                         
         }
         

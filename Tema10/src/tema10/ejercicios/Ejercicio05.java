@@ -11,7 +11,7 @@ import java.util.ArrayList;
     Intercambiar sus posiciones.
     Mostrar la lista por pantalla.
 */
-public class Ejercicio5 {
+public class Ejercicio05 {
     public static void main(String[] args) {
         ArrayList<Integer> lista = new ArrayList<>();
         rellenarLista(lista);

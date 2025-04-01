@@ -10,7 +10,7 @@ import java.util.Scanner;
     Intercambiar las posiciones 2º y 4º entre sí.
     Mostrar la lista    
 */
-public class Ejercicio3 {
+public class Ejercicio03 {
     public static void main(String[] args) {
         ArrayList<Integer> listaNumeros = new ArrayList<>();
         rellenarLista(listaNumeros);

@@ -16,7 +16,7 @@ import java.util.Scanner;
     7. Salir del programa.
 */
 
-public class Ejercicio6 {
+public class Ejercicio06 {
     public static void main(String[] args) {
         mostrarMenu();
     }

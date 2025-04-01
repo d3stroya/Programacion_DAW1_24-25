@@ -11,7 +11,7 @@ import java.util.Scanner;
  *
  * @author anabel
  */
-public class Ejercicio7 {
+public class Ejercicio07 {
     final static int NUM_SEMANAS = 4;
     final static int NUM_DIAS_SEMANA = 7;
     
