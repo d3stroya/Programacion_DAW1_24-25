@@ -101,3 +101,8 @@ Tema08/build/classes/.netbeans_automatic_build
 /Tema10/nbproject/private/
 /Tema10/build/
 /Tema10/dist/
+/Tema11/nbproject/private/
+/Tema11/build/
+*.xml
+*.mf
+/RuletaRusa
