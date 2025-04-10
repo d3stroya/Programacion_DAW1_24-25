@@ -1,7 +1,7 @@
 /*
  * Ejercicio 1
  */
-package tema11.ejercicios.ej1;
+package tema11.ejercicios.ej01;
 
 /**
  *

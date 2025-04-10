@@ -1,5 +1,5 @@
 
-package tema11.ejercicios.ej1;
+package tema11.ejercicios.ej01;
 
 import java.util.HashMap;
 import java.util.InputMismatchException;

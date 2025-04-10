@@ -1,5 +1,5 @@
 
-package tema11.ejercicios.ej3;
+package tema11.ejercicios.ej03;
 
 import java.util.InputMismatchException;
 import java.util.Iterator;
