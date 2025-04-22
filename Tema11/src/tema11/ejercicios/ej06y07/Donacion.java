@@ -40,7 +40,7 @@ public class Donacion implements Comparable<Donacion> {
         if(d.getCantidad() > cantidad) {
             return -1;
         } else if(d.getCantidad() < cantidad) {
-            return -1;
+            return 1;
         } else {
             return 0;
         }
