@@ -105,7 +105,7 @@ public class Tema12 {
         try {
             archivoEnDAW.createNewFile();
         } catch (IOException ex) {
-            System.out.println("El archivo ya existe");
+            System.out.println("Error de entrada/salida al crear el archivo");
         }
         
         // Crear un fichero en la raíz
@@ -113,7 +113,7 @@ public class Tema12 {
         try {
             archivoRaiz.createNewFile();
         } catch (IOException ex) {
-            System.out.println("El archivo ya existe");
+            System.out.println("Error de entrada/salida al crear el archivo");
         }
         
         
@@ -128,7 +128,7 @@ public class Tema12 {
         try {
             arch.createNewFile();
         } catch (IOException ex) {
-            System.out.println("El archivo ya existe");
+            System.out.println("Error de entrada/salida al crear el archivo");
         }
         
         
